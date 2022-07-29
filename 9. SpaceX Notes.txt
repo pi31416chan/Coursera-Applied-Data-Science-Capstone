@@ -1,0 +1,44 @@
+Only 4 launch sites are involved
+	[('CCAFS LC-40',), ('VAFB SLC-4E',), ('KSC LC-39A',), ('CCAFS SLC-40',)]
+
+Flight Number and Launch Site does not correlate with a strong power
+
+CCAFS SLC-40 has 100% success rate at payload > 12000
+
+VAFB SLC-4E has very high success rate at payload == 9500
+VAFB SLC-4E also has no rocket launch with payload > 10000
+
+KSC LC-39A has 100% success rate at payload <= 5000 and very high success rate at payload > 8000
+
+SSO 100% success rate
+
+VLEO has very high success rate ~87%
+
+LEO orbit the Success appears related to the number of flights
+
+SSO payload ranges from 0 to 4000
+
+GTO payload ranges from 3000 to 8000
+
+VLEO payload > 13000
+
+With heavy payloads the successful landing or positive landing rate are more for Polar,LEO and ISS
+
+sucess rate since 2013 kept increasing till 2020
+
+KSC LC-39A has largest successful launch number & highest successful launch rate
+
+payload ranges from 2000 to 6000 has highest successful launch rate
+
+payload ranges from 6000 to 9000 has highest successful launch rate
+
+FT Booster has highest successful launch rate
+
+Linear Regression, Decision Tree, Support Vector Machines, K-Nearest Neighbors4
+
+All 4 models have 0.8333333 accuracy with their respective best parameters
+Decision tree has the highest score 0.875 with the train result
+Therefore, decision tree performs the best among all 4 methods
+
+
+
